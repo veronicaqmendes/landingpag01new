@@ -1,0 +1,115 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    justify-content: space-between;
+    align-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+   }
+.logo-shopify {
+    width: 10vw;
+    height: 5vh;
+}
+.content {
+    text-align: center;
+    margin-top: 2vh; /* Ajustado para 2% da altura da tela */
+}
+
+.content h1 {
+    font-size: 5vw; /* Ajustado para 5% da largura da tela */
+}
+
+.content p {
+    font-size: 2vw; /* Ajustado para 2% da largura da tela */
+}
+
+form input[type="email"],
+form button[type="submit"] {
+    width: 40vw; /* Ajustado para 40% da largura da tela */
+    padding: 1vw; /* Ajustado para 1% da largura da tela */
+    margin-top: 1vh; /* Ajustado para 1% da altura da tela */
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+.logo-container img {
+    width: 40vw; /* Ajustado para 40% da largura da tela */
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    width: 10vw; /* Ajustado para 80% da largura da tela */
+    margin-top: 5vh; /* Ajustado para 2% da altura da tela */
+}
+
+.card {
+    width: 25vw; /* Ajustado para 25% da largura da tela */
+}
+
+.card img {
+    width: 20vw; /* Ajustado para 20% da largura da tela */
+}
+
+.card .card-body {
+    padding: 1vw; /* Ajustado para 1% da largura da tela */
+}
+
+.footer img {
+    width: 80vw; /* Ajustado para 80% da largura da tela */
+}
+
+.footer_button {
+    text-align: center;
+    margin-top: 2vh; /* Ajustado para 2% da altura da tela */
+}
+
+.footer_button h1 {
+    font-size: 4vw; /* Ajustado para 4% da largura da tela */
+}
+
+.footer_button p {
+    font-size: 2vw; /* Ajustado para 2% da largura da tela */
+}
+
+.faqs {
+    text-align: center;
+    margin-top: 2vh; /* Ajustado para 2% da altura da tela */
+}
+
+.faqs h1 {
+    font-size: 4vw; /* Ajustado para 4% da largura da tela */
+}
+
+.faqs ul {
+    list-style: none;
+}
+
+.faqs ul li {
+    font-size: 2vw; /* Ajustado para 2% da largura da tela */
+    margin-top: 1vh; /* Ajustado para 1% da altura da tela */
+}
